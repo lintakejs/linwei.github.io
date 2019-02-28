@@ -4,12 +4,13 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: 碧海云巅
 subtitle:
-description:
-author: John Doe
+description: 总之，什么事情都能自己为自己买单，就是一种安全感。
+author: Wei Lin
+repository: lintakejs/linwei.github.io
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
@@ -151,9 +152,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -233,7 +234,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /source/uploads/headImage.jpg
 
 
 # Table Of Contents in the Sidebar
