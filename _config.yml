@@ -4,9 +4,9 @@
 # ---------------------------------------------------------------
 
 # Site
-title: 碧海云巅
+title: 码农林
 subtitle:
-description: 总之，什么事情都能自己为自己买单，就是一种安全感。
+description: 懂的越多，不懂的也会越多，不懂不会装懂。
 author: Wei Lin
 repository: lintakejs/linwei.github.io
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
@@ -119,12 +119,12 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
+  categories: /categories/
+  # about: /about/
   archives: /archives/
   tags: /tags/
-  #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  # sitemap: /sitemap.xml
+  # commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -252,7 +252,10 @@ toc:
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 #creative_commons: by-nc-sa
-#creative_commons:
+creative_commons:
+  license: by-nc-sa
+  sidebar: true
+  post: true
 
 
 sidebar:
@@ -632,7 +635,13 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest:
+  enable: true
+  onmobile: true # display on mobile or not
+  color: '0,0,0' # RGB values, use ',' to separate
+  opacity: 0.5 # the opacity of line: 0~1
+  zIndex: -1 # z-index property of the background
+  count: 150 # the number of lines
 
 # three_waves
 three_waves: false
